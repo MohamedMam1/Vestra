@@ -1,0 +1,11 @@
+:root {
+  --bg-color: #0f172a;
+  --text-color: #e2e8f0;
+  --primary-color: #6366f1;
+  --secondary-color: #1e293b;
+  --border-color: #334155;
+  --hover-color: #4f46e5;
+  --nav-link-color: #94a3b8;
+  --color-background: #0f172a;
+  --font-main: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
