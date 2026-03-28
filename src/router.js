@@ -28,7 +28,10 @@ export class Router {
       return;
     }
 
-    if (isLoggedIn && cleanPath === "/login") {
+    if (
+      (isLoggedIn && cleanPath === "/login") ||
+      (isLoggedIn && cleanPath === "/signup")
+    ) {
       window.history.pushState({}, "", "/home");
       this.render("/home");
       return;
